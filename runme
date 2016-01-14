@@ -1,0 +1,12 @@
+DATE=$(date)
+PWD=$(pwd)
+
+source $PWD/meteor-settings
+
+echo $DATE
+echo "Starting all processes owned by $PWD ..."
+
+#[ ! -f ./node_modules ] && npm install
+#[ ! -f ./bower_components ] && bower install
+# npm install && bower install
+MONGO_URL=$DB $HOME/.meteor/meteor --production --port $PORT
