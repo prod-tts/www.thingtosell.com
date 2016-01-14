@@ -8,7 +8,7 @@
 	title: ->
 			TAPi18n.__ 'Buy Sell and Pay'
 	subtitle: ->
-			TAPi18n.__ 'Anyone'
+			TAPi18n.__ 'any Thing'
 	logo: ->
 		'<b>' + @name + '</b>'
 	footer: ->
