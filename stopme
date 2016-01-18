@@ -1,3 +1,5 @@
 SITE=`pwd`
 
-ps -ef |grep $SITE | grep -v grep | awk '{ print $2 }' | xargs kill -9
+source meteor-settings
+
+ps -ef |grep $PORT | grep -v grep | awk '{ print $2 }' | xargs kill -9
