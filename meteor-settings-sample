@@ -1,4 +1,4 @@
 export MONGO_URL=mongodb://10.0.0.3:27017/www-tts
-export MONGO_OPLOG_URL=mongodb://10.0.0.3:27017/www-tts
+export MONGO_OPLOG_URL=mongodb://10.0.0.3:27017/local
 export USE_JSESSIONID=1
 export PORT=3001
